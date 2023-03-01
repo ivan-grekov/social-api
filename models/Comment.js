@@ -12,7 +12,6 @@ const CommentSchema = new mongoose.Schema(
     },
     userImg: {
       type: String,
-      required: true,
     },
     username: {
       type: String,
