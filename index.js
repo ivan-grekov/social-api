@@ -73,3 +73,5 @@ app.get('/api/search', (req, res) => {
 app.listen(8800, () => {
   console.log('Backeend server is runnning');
 });
+
+module.exports = app;
